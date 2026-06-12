@@ -16,6 +16,7 @@ class GrupoEspecialidades {
 
     agregar(especialidad) {
         this.especialidades.push(especialidad);
+        
     }
 
     mostrar() {
