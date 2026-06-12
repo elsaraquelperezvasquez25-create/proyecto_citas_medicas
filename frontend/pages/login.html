@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Medicare Plus</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Medicare Plus</h1>
+            <p>Inicia sesión para continuar</p>
+
+            <form id="loginForm">
+                <label>DNI / Usuario</label>
+                <input type="text" id="dni" placeholder="Ej: 80000001 o admin">
+
+                <label>Contraseña</label>
+                <input type="password" id="password" placeholder="Ingresa tu contraseña">
+
+                <button type="submit">Ingresar</button>
+            </form>
+
+            <p id="mensaje" class="mensaje"></p>
+
+            <a href="registro.html">¿Eres paciente nuevo? Regístrate aquí</a>
+            <br>
+            <a href="../index.html">Volver al inicio</a>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

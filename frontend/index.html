@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Plus</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">MediCare Plus</div>
+
+    <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="pages/especialidades.html">Especialidades</a>
+        <a href="pages/medicos.html">Médicos</a>
+        <a href="pages/login.html">Iniciar Sesión</a>
+        <a href="pages/registro.html" class="btn-nav">Registrarse</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Bienvenidos a MediCare Plus</h1>
+        <p>Tu salud en las mejores manos. Agenda tus citas médicas de forma rápida, segura y sencilla.</p>
+
+        <div class="hero-buttons">
+            <a href="pages/login.html" class="btn-primary">Agendar Cita</a>
+            <a href="#especialidades" class="btn-secondary">Ver Especialidades</a>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div>
+        <h2>+50</h2>
+        <p>Médicos</p>
+    </div>
+    <div>
+        <h2>+10</h2>
+        <p>Especialidades</p>
+    </div>
+    <div>
+        <h2>+5000</h2>
+        <p>Pacientes atendidos</p>
+    </div>
+    <div>
+        <h2>+15</h2>
+        <p>Años de experiencia</p>
+    </div>
+</section>
+
+<section class="about">
+    <h2>Sobre Nosotros</h2>
+    <p>
+        MediCare Plus es una plataforma médica orientada a brindar atención de calidad,
+        facilitando la reserva de citas, el acceso a especialistas y el seguimiento médico
+        de nuestros pacientes.
+    </p>
+</section>
+
+<section class="especialidades" id="especialidades">
+    <h2>Nuestras Especialidades</h2>
+    <p class="section-subtitle">Especialidades cargadas desde nuestra base de datos SQLite.</p>
+
+    <div class="cards-container" id="contenedorEspecialidades">
+        <!-- Aquí JavaScript cargará las especialidades -->
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 MediCare Plus - Todos los derechos reservados</p>
+    <p>Ctra. Panamericana Sur km 16, Villa El Salvador 15842</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
